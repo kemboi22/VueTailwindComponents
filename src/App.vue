@@ -2,6 +2,7 @@
 
 import VInput from "./components/VInput.vue";
 import VButton from "./components/VButton.vue";
+import VTextArea from "./components/VTextArea.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import VButton from "./components/VButton.vue";
   <VButton label="Button" rounded type="button">
     +
   </VButton>
+  <VTextArea label="label"/>
 </template>
 
 <style scoped>
